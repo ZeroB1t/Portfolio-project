@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&display=swap');
+
+:root{
+    --bg-color: #000000;
+    --color_white: #ffffff;
+    --color_green: #1BFF07;
+}
+body{
+    font-family: "IBM Plex Mono", monospace;
+}
+
+.container{
+    width: 1150px;
+    margin: 0 auto;
+}
+
+/* Стили для header */
+
+.header_wrapper{
+    padding-top: 27px;
+    padding-bottom: 94px;
+}
+
+.header{
+    background-image: url(/resources/bg-image-header.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.navigation{
+    margin-bottom: 252px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu_item{
+    margin-right: 50px;
+    font-size: 18px;
+    letter-spacing: -0.03em;
+}
+
+.menu_item:nth-last-child(1){
+    margin-right: 0;
+}
+
+.menu_link{
+    text-decoration: none;
+    color: var(--color_white);
+}
+
+.description{
+    max-width: 430px;
+    font-size: 20px;
+    letter-spacing: -0.03em;
+    color: var(--color_white);
+    margin-bottom: 29px;
+}
+
+.title_h1{
+    max-width: 919px;
+    font-size: 80px;
+    line-height: 70px;
+    color: var(--color_green);
+    letter-spacing: -0.03em;
+    margin-bottom: 94px;
+}
